@@ -23,6 +23,14 @@
         "id": "https://benwbrum.github.io/external-theme/gilgamesh-performance/canvas-1/canvas",
         "type": "Canvas",
         "duration": 203.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://benwbrum.github.io/external-theme/gilgamesh-performance/canvas-1/canvas/singlelayer.json",
+            "label": "SingleLayer"
+          }
+        ],
         "items": [
           {
             "id": "https://benwbrum.github.io/external-theme/gilgamesh-performance/canvas-1/paintings",
