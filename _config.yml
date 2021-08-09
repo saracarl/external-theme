@@ -26,7 +26,7 @@ url: "https://benwbrum.github.io/external-theme" # the base hostname & protocol 
 github_username:  benwbrum
 
 # Build settings
-theme: minima
+remote_theme: hipstas/AudiAnnotate
 plugins:
   - jekyll-feed
 
