@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://benwbrum.github.io/external-theme/gilgamesh-performance/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Gilgamesh Performance" ] },
+    "homepage": [
+      {
+        "id": "https://archive.org/details/Gilgamesh_201403",
+        "type": "Text",
+        "label": { "en": [ "Gilgamesh Performance" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://archive.org",
+        "type": "Agent",
+        "label": { "en": [ "Internet Archive" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://benwbrum.github.io/external-theme/gilgamesh-performance/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 203.0,
+        "items": [
+          {
+            "id": "https://benwbrum.github.io/external-theme/gilgamesh-performance/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://benwbrum.github.io/external-theme/gilgamesh-performance/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://archive.org/download/audio_poetry_101_2006/GilgameshLament.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 203.0
+                },
+                "target": "https://benwbrum.github.io/external-theme/gilgamesh-performance/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
